@@ -1,0 +1,19 @@
+{
+  "name": "bhumio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "paraphraser.js",
+  "scripts": {
+    "start":"node paraphraser.js",
+    "test": "nyc mocha paraphraser.test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^10.2.0",
+    "paraphrase": "^3.1.1"
+  },
+  "devDependencies": {
+    "nyc": "^15.1.0"
+  }
+}
